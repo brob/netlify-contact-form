@@ -2,6 +2,6 @@
 
 
 export function handler(event, context, callback) {
-    console.log(event.body.data);
+    console.log(JSON.parse(event.body).data);
 
 }
