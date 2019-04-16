@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thank you for reaching out!</title>
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            min-height: 95vh;
+            background-color: lightblue;
+        }
+        .container {
+            background-color: white;
+            max-width: 900px;
+            width: 95vw;
+            margin: auto;
+            padding: 2rem;
+        }
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1rem;
+        }
+        label, input, textarea, select {
+            display: block;
+            width: 100%;
+        }
+        .full-width {
+            grid-column: span 2;
+        }
+    </style>
+    <main class="container">
+        <h1>Thank you for reaching out</h1>
+        <p>We'll be back with you very shortly. In the meantime, don't forget to view our amazing products and services!</p>
+    </main>
+</body>
+</html>
